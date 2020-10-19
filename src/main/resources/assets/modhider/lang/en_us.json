@@ -1,0 +1,6 @@
+{
+	"text.autoconfig.modhider.option.hiddenMods": "Hidden Mods",
+	"text.autoconfig.modhider.option.hiddenMods.@Tooltip[0]": "The IDs of the mods that should",
+	"text.autoconfig.modhider.option.hiddenMods.@Tooltip[1]": "be hidden from Mod Menu.",
+	"text.autoconfig.modhider.title": "Mod Hider Configuration"
+}

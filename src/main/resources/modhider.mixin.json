@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.modhider.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"ModListWidgetMixin",
+		"ModMenuMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

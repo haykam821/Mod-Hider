@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "modhider",
+	"version": "${version}",
+	"name": "Mod Hider",
+	"description": "Hides mods from Mod Menu.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Mod-Hider#readme",
+		"issues": "https://github.com/haykam821/Mod-Hider/issues"
+	},
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"io.github.haykam821.modhider.ClientMain"
+		],
+		"modmenu": [
+			"io.github.haykam821.modhider.config.ModMenuCompatibility"
+		]
+	},
+	"mixins": [
+		"modhider.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/modhider/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"modmenu": "*"
+	}
+}
