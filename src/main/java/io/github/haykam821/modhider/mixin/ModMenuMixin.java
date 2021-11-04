@@ -2,12 +2,13 @@ package io.github.haykam821.modhider.mixin;
 
 import java.util.Collection;
 
+import com.terraformersmc.modmenu.ModMenu;
+
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
 import io.github.haykam821.modhider.ClientMain;
-import io.github.prospector.modmenu.ModMenu;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 
